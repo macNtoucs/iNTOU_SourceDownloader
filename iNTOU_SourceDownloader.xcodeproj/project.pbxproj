@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91053AC01E51986700ACEA8D /* LifeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 91053ABF1E51986700ACEA8D /* LifeModule.m */; };
+		91531E321E531A51005D2CAF /* GuideModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 91531E311E531A51005D2CAF /* GuideModule.m */; };
+		91EE91F41E4AB49500B2DFD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EE91F31E4AB49500B2DFD1 /* main.m */; };
+		91EE92051E4ADB3E00B2DFD1 /* Module.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EE92041E4ADB3E00B2DFD1 /* Module.m */; };
+		91EE92081E4ADBE900B2DFD1 /* CalendarModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EE92071E4ADBE900B2DFD1 /* CalendarModule.m */; };
+		91EE920B1E4ADE1F00B2DFD1 /* EmergencyModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EE920A1E4ADE1F00B2DFD1 /* EmergencyModule.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		91EE91EE1E4AB49500B2DFD1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		91053ABE1E51986700ACEA8D /* LifeModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LifeModule.h; path = Module/LifeModule.h; sourceTree = "<group>"; };
+		91053ABF1E51986700ACEA8D /* LifeModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LifeModule.m; path = Module/LifeModule.m; sourceTree = "<group>"; };
+		91531E301E531A51005D2CAF /* GuideModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GuideModule.h; path = Module/GuideModule.h; sourceTree = "<group>"; };
+		91531E311E531A51005D2CAF /* GuideModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GuideModule.m; path = Module/GuideModule.m; sourceTree = "<group>"; };
+		91EE91F01E4AB49500B2DFD1 /* iNTOU_SourceDownloader */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = iNTOU_SourceDownloader; sourceTree = BUILT_PRODUCTS_DIR; };
+		91EE91F31E4AB49500B2DFD1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		91EE92031E4ADB3E00B2DFD1 /* Module.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Module.h; path = Module/Module.h; sourceTree = "<group>"; };
+		91EE92041E4ADB3E00B2DFD1 /* Module.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Module.m; path = Module/Module.m; sourceTree = "<group>"; };
+		91EE92061E4ADBE900B2DFD1 /* CalendarModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalendarModule.h; path = Module/CalendarModule.h; sourceTree = "<group>"; };
+		91EE92071E4ADBE900B2DFD1 /* CalendarModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalendarModule.m; path = Module/CalendarModule.m; sourceTree = "<group>"; };
+		91EE92091E4ADE1F00B2DFD1 /* EmergencyModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EmergencyModule.h; path = Module/EmergencyModule.h; sourceTree = "<group>"; };
+		91EE920A1E4ADE1F00B2DFD1 /* EmergencyModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EmergencyModule.m; path = Module/EmergencyModule.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91EE91ED1E4AB49500B2DFD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91EE91E71E4AB49500B2DFD1 = {
+			isa = PBXGroup;
+			children = (
+				91EE91F21E4AB49500B2DFD1 /* iNTOU_SourceDownloader */,
+				91EE91F11E4AB49500B2DFD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91EE91F11E4AB49500B2DFD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91EE91F01E4AB49500B2DFD1 /* iNTOU_SourceDownloader */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91EE91F21E4AB49500B2DFD1 /* iNTOU_SourceDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				91EE92021E4ADB2500B2DFD1 /* Module */,
+				91EE91F31E4AB49500B2DFD1 /* main.m */,
+			);
+			path = iNTOU_SourceDownloader;
+			sourceTree = "<group>";
+		};
+		91EE92021E4ADB2500B2DFD1 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				91EE92031E4ADB3E00B2DFD1 /* Module.h */,
+				91EE92041E4ADB3E00B2DFD1 /* Module.m */,
+				91EE92061E4ADBE900B2DFD1 /* CalendarModule.h */,
+				91EE92071E4ADBE900B2DFD1 /* CalendarModule.m */,
+				91EE92091E4ADE1F00B2DFD1 /* EmergencyModule.h */,
+				91EE920A1E4ADE1F00B2DFD1 /* EmergencyModule.m */,
+				91053ABE1E51986700ACEA8D /* LifeModule.h */,
+				91053ABF1E51986700ACEA8D /* LifeModule.m */,
+				91531E301E531A51005D2CAF /* GuideModule.h */,
+				91531E311E531A51005D2CAF /* GuideModule.m */,
+			);
+			name = Module;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91EE91EF1E4AB49500B2DFD1 /* iNTOU_SourceDownloader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91EE91F71E4AB49500B2DFD1 /* Build configuration list for PBXNativeTarget "iNTOU_SourceDownloader" */;
+			buildPhases = (
+				91EE91EC1E4AB49500B2DFD1 /* Sources */,
+				91EE91ED1E4AB49500B2DFD1 /* Frameworks */,
+				91EE91EE1E4AB49500B2DFD1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iNTOU_SourceDownloader;
+			productName = iNTOU_SourceDownloader;
+			productReference = 91EE91F01E4AB49500B2DFD1 /* iNTOU_SourceDownloader */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91EE91E81E4AB49500B2DFD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Lab414;
+				TargetAttributes = {
+					91EE91EF1E4AB49500B2DFD1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 91EE91EB1E4AB49500B2DFD1 /* Build configuration list for PBXProject "iNTOU_SourceDownloader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 91EE91E71E4AB49500B2DFD1;
+			productRefGroup = 91EE91F11E4AB49500B2DFD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91EE91EF1E4AB49500B2DFD1 /* iNTOU_SourceDownloader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91EE91EC1E4AB49500B2DFD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91EE92081E4ADBE900B2DFD1 /* CalendarModule.m in Sources */,
+				91EE920B1E4ADE1F00B2DFD1 /* EmergencyModule.m in Sources */,
+				91531E321E531A51005D2CAF /* GuideModule.m in Sources */,
+				91EE91F41E4AB49500B2DFD1 /* main.m in Sources */,
+				91EE92051E4ADB3E00B2DFD1 /* Module.m in Sources */,
+				91053AC01E51986700ACEA8D /* LifeModule.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		91EE91F51E4AB49500B2DFD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		91EE91F61E4AB49500B2DFD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		91EE91F81E4AB49500B2DFD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		91EE91F91E4AB49500B2DFD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91EE91EB1E4AB49500B2DFD1 /* Build configuration list for PBXProject "iNTOU_SourceDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91EE91F51E4AB49500B2DFD1 /* Debug */,
+				91EE91F61E4AB49500B2DFD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91EE91F71E4AB49500B2DFD1 /* Build configuration list for PBXNativeTarget "iNTOU_SourceDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91EE91F81E4AB49500B2DFD1 /* Debug */,
+				91EE91F91E4AB49500B2DFD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91EE91E81E4AB49500B2DFD1 /* Project object */;
+}
