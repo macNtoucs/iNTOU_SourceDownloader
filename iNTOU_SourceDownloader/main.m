@@ -4,6 +4,7 @@
 #import "EmergencyModule.h"
 #import "LifeModule.h"
 #import "GuideModule.h"
+#import "TrafficModuleIncludes.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -25,12 +26,15 @@ int main(int argc, const char * argv[]) {
         [modules addObject:[CalendarModule new]];
         [modules addObject:[EmergencyModule new]];
         [modules addObject:[LifeModule new]];
+        [modules addObject:[KeelungRoute new]];
+        [modules addObject:[KeelungProvider new]];
+        [modules addObject:[KeelungStop new]];
 
         for(Module* module in [modules copy])
             [module downloadDataFromServer:path];
         
         NSLog(@"完成！");
-        
+        sleep(90);
     }
     return 0;
 }

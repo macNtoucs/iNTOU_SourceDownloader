@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		91053AC01E51986700ACEA8D /* LifeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 91053ABF1E51986700ACEA8D /* LifeModule.m */; };
+		913D65251E5ED1B300888676 /* KeelungRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 913D65241E5ED1B300888676 /* KeelungRoute.m */; };
+		913D65281E5ED1E500888676 /* KeelungProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 913D65271E5ED1E500888676 /* KeelungProvider.m */; };
+		913D652C1E5ED42B00888676 /* KeelungStop.m in Sources */ = {isa = PBXBuildFile; fileRef = 913D652B1E5ED42B00888676 /* KeelungStop.m */; };
 		91531E321E531A51005D2CAF /* GuideModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 91531E311E531A51005D2CAF /* GuideModule.m */; };
 		91EE91F41E4AB49500B2DFD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EE91F31E4AB49500B2DFD1 /* main.m */; };
 		91EE92051E4ADB3E00B2DFD1 /* Module.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EE92041E4ADB3E00B2DFD1 /* Module.m */; };
@@ -30,6 +33,13 @@
 /* Begin PBXFileReference section */
 		91053ABE1E51986700ACEA8D /* LifeModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LifeModule.h; path = Module/LifeModule.h; sourceTree = "<group>"; };
 		91053ABF1E51986700ACEA8D /* LifeModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LifeModule.m; path = Module/LifeModule.m; sourceTree = "<group>"; };
+		913D65231E5ED1B300888676 /* KeelungRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KeelungRoute.h; path = Module/TrafficModule/Bus/KeelungRoute.h; sourceTree = "<group>"; };
+		913D65241E5ED1B300888676 /* KeelungRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KeelungRoute.m; path = Module/TrafficModule/Bus/KeelungRoute.m; sourceTree = "<group>"; };
+		913D65261E5ED1E500888676 /* KeelungProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KeelungProvider.h; path = Module/TrafficModule/Bus/KeelungProvider.h; sourceTree = "<group>"; };
+		913D65271E5ED1E500888676 /* KeelungProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KeelungProvider.m; path = Module/TrafficModule/Bus/KeelungProvider.m; sourceTree = "<group>"; };
+		913D65291E5ED2E300888676 /* TrafficModuleIncludes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TrafficModuleIncludes.h; path = Module/TrafficModule/TrafficModuleIncludes.h; sourceTree = "<group>"; };
+		913D652A1E5ED42B00888676 /* KeelungStop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KeelungStop.h; path = Module/TrafficModule/Bus/KeelungStop.h; sourceTree = "<group>"; };
+		913D652B1E5ED42B00888676 /* KeelungStop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KeelungStop.m; path = Module/TrafficModule/Bus/KeelungStop.m; sourceTree = "<group>"; };
 		91531E301E531A51005D2CAF /* GuideModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GuideModule.h; path = Module/GuideModule.h; sourceTree = "<group>"; };
 		91531E311E531A51005D2CAF /* GuideModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GuideModule.m; path = Module/GuideModule.m; sourceTree = "<group>"; };
 		91EE91F01E4AB49500B2DFD1 /* iNTOU_SourceDownloader */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = iNTOU_SourceDownloader; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +63,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		913D651E1E5EC95A00888676 /* TrafficModule */ = {
+			isa = PBXGroup;
+			children = (
+				913D65221E5ED19500888676 /* Bus */,
+				913D65291E5ED2E300888676 /* TrafficModuleIncludes.h */,
+			);
+			name = TrafficModule;
+			sourceTree = "<group>";
+		};
+		913D65221E5ED19500888676 /* Bus */ = {
+			isa = PBXGroup;
+			children = (
+				913D65231E5ED1B300888676 /* KeelungRoute.h */,
+				913D65241E5ED1B300888676 /* KeelungRoute.m */,
+				913D65261E5ED1E500888676 /* KeelungProvider.h */,
+				913D65271E5ED1E500888676 /* KeelungProvider.m */,
+				913D652A1E5ED42B00888676 /* KeelungStop.h */,
+				913D652B1E5ED42B00888676 /* KeelungStop.m */,
+			);
+			name = Bus;
+			sourceTree = "<group>";
+		};
 		91EE91E71E4AB49500B2DFD1 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +113,7 @@
 		91EE92021E4ADB2500B2DFD1 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				913D651E1E5EC95A00888676 /* TrafficModule */,
 				91EE92031E4ADB3E00B2DFD1 /* Module.h */,
 				91EE92041E4ADB3E00B2DFD1 /* Module.m */,
 				91EE92061E4ADBE900B2DFD1 /* CalendarModule.h */,
@@ -154,9 +187,12 @@
 			files = (
 				91EE92081E4ADBE900B2DFD1 /* CalendarModule.m in Sources */,
 				91EE920B1E4ADE1F00B2DFD1 /* EmergencyModule.m in Sources */,
+				913D65281E5ED1E500888676 /* KeelungProvider.m in Sources */,
 				91531E321E531A51005D2CAF /* GuideModule.m in Sources */,
+				913D65251E5ED1B300888676 /* KeelungRoute.m in Sources */,
 				91EE91F41E4AB49500B2DFD1 /* main.m in Sources */,
 				91EE92051E4ADB3E00B2DFD1 /* Module.m in Sources */,
+				913D652C1E5ED42B00888676 /* KeelungStop.m in Sources */,
 				91053AC01E51986700ACEA8D /* LifeModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
